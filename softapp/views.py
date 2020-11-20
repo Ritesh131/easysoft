@@ -14,13 +14,6 @@ from django.core.mail import get_connection, EmailMultiAlternatives
 class index(TemplateView):
     template_name = 'index.html'
 
-# class QuerySubmit(viewsets.ModelViewSet):
-#     """
-#     API endpoint that allows groups to be viewed or edited.
-#     """
-#     queryset = UserQuery.objects.all()
-#     serializer_class = UserQuerySerializer
-
 def QuerySubmit(req):
     if req.method == 'POST':
         name = req.POST['name']
