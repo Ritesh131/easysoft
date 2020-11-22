@@ -157,9 +157,10 @@ h6 {
 }
 
 #header .logo img {
+  width: 100px;
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: -27px 0;
+  max-height: 95px;
 }
 
 .main-pages {
@@ -618,10 +619,10 @@ h6 {
 }
 
 #services .title {
-  margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 #services .title a {
@@ -634,7 +635,8 @@ h6 {
 
 #services .description {
   font-size: 14px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
+  text-align: center;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -1410,4 +1412,35 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  float: left;
+  margin: 10px;
+  height: 135px;
 }
