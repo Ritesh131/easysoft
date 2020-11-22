@@ -28,7 +28,7 @@ SECRET_KEY = ')j#*iokyy3mlo^c2591nc(+t)y5hkq6h4g%kbj3bk!7m93(j&^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ritesh-easysoft.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
